@@ -79,6 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (icon){
         const tiktok = document.createElement('i');
         tiktok.classList.add('fab', 'fa-tiktok');
-        icon.appendChild(icon);
+        icon.appendChild(tiktok);
     }
 
