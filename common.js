@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     // Select the main image and small images
-    const icon = document.getElementById('icon');
+    const icon = document.getElementById('.icon');
 
     if (icon){
         const tiktok = document.createElement('i');
