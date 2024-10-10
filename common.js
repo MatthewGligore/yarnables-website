@@ -71,3 +71,14 @@ document.addEventListener("DOMContentLoaded", function () {
         imgContainer.style.width = '100%'; // Adjust based on your design
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Select the main image and small images
+    const icon = document.getElementById('icon');
+
+    if (icon){
+        const tiktok = document.createElement('i');
+        tiktok.classList.add('fab', 'fa-tiktok');
+        icon.appendChild(icon);
+    }
+
