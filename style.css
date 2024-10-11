@@ -846,43 +846,6 @@ display: flex;
             }
         }
     }
-
-    #pro-details {
-        display: flex; /* Stack elements vertically */
-        flex-direction: column;
-        gap: 20px;
-        padding: 10px; /* Reduce padding for smaller screens */
-
-    }
-
-    .single-pro-img {
-        width: 100%; /* Make the main image take the full width */
-        text-align: center;
-        margin-bottom: 20px; /* Add space below the images */
-
-        #MainImg {
-            width: 100%; /* Full width for the main image */
-            min-width: 100%;
-            margin-bottom: 10px; /* Add space between the main and small images */
-        }
-
-        .small-img-group {
-            display: flex; /* Keep images in a row */
-            justify-content: center; /* Distribute images evenly */
-            gap: 5px; /* Small gap between images */
-            margin-bottom: 20px;
-        }
-
-        .small-img-col {
-            width: 20%;
-        }
-    }
-
-    .single-pro-details {
-        width: 100%; /* Full width for product details */
-        margin-top: 20px; /* Space between images and details */
-        padding: 20px; /* Reduce padding for smaller screens */
-    }
 }
 
 
@@ -978,41 +941,5 @@ display: flex;
         .form{
             width: 100%;
         }
-    }
-    #pro-details {
-        display: flex; /* Stack elements vertically */
-        flex-direction: column;
-        gap: 20px;
-        padding: 10px; /* Reduce padding for smaller screens */
-
-    }
-
-    .single-pro-img {
-        width: 100%; /* Make the main image take the full width */
-        text-align: center;
-        margin-bottom: 20px; /* Add space below the images */
-
-        #MainImg {
-            width: 100%; /* Full width for the main image */
-            min-width: 100%;
-            margin-bottom: 10px; /* Add space between the main and small images */
-        }
-
-        .small-img-group {
-            display: flex; /* Keep images in a row */
-            justify-content: center; /* Distribute images evenly */
-            gap: 5px; /* Small gap between images */
-            margin-bottom: 20px;
-        }
-
-        .small-img-col {
-            width: 20%;
-        }
-    }
-
-    .single-pro-details {
-        width: 100%; /* Full width for product details */
-        margin-top: 20px; /* Space between images and details */
-        padding: 20px; /* Reduce padding for smaller screens */
     }
 }
