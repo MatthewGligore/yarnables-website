@@ -265,6 +265,7 @@ display: flex;
 
 #product1 .pro img{
     width: 100%;
+    max-width: 100%;
     border-radius: 20px;
 }
 
